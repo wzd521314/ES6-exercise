@@ -13,7 +13,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
-    port: 8088,
+    port: 8081,
     hot: true,
   },
   plugins: [new HtmlWebpackPlugin({
