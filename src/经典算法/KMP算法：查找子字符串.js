@@ -54,6 +54,8 @@ function kmpSearch(parentStr, childStr) {
         i++
       }else {
         //子字符串需向右移动的位数 = 已匹配的字符数(j) - 前一位的next值(next[j - 1])
+        //则j的指针需重新设为 j = j - 向右移动的位数(j - next[j - 1]) = next(j - 1)
+        
         j = nextArray[j - 1]
         // i -= nextArray[j-1]
         // j = 0 

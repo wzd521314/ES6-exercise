@@ -114,7 +114,6 @@ class hashList {
       }
     }
     
-    console.log('没有这个数据哦')
   }
 
   //4.扩容操作

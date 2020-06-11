@@ -6,7 +6,7 @@ function queue(content, pirority) {
 
   function queueObject(content, pirority) {
     this.content = content
-    this,pirority = pirority
+    this.pirority = pirority
   }
 
   let newItem = new queueObject(content, pirority)
